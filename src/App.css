@@ -1,0 +1,163 @@
+.App {
+    position: relative;
+}
+
+.item {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    align-content: center;
+}
+.button {
+    width: 120px;
+}
+
+.login_wrapper {
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #1d1d1d;
+    display: flex;
+    flex-direction: column;
+}
+
+.login_wrapper_items {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 300px;
+    background-color: #303030;
+    border: black solid 1px;
+    border-radius: 30px;
+    height: 300px;
+}
+.discription {
+    color: white;
+    font-size: 14px;
+    margin-top: 50px;
+}
+.checkbox {
+    margin-top: 10px;
+    width: 250px;
+}
+.loginArea {
+    margin-top: 20px;
+    width: 250px;
+}
+.passArea {
+    margin-top: 10px;
+    width: 250px;
+}
+ 
+.button {
+    background-color: #0095ff;
+    border: 1px solid transparent;
+    width: 250px;
+    margin-top: 25px!important;
+    border-radius: 3px;
+    box-shadow: rgba(255, 255, 255, .4) 0 1px 0 0 inset;
+    box-sizing: border-box;
+    color: #fff;
+    cursor: pointer;
+    display: inline-block;
+    font-family: -apple-system,system-ui,"Segoe UI","Liberation Sans",sans-serif;
+    font-size: 13px;
+    font-weight: 400;
+    line-height: 1.15385;
+    margin: 0;
+    outline: none;
+    padding: 8px .8em;
+    position: relative;
+    text-align: center;
+    text-decoration: none;
+    user-select: none;
+    -webkit-user-select: none;
+    touch-action: manipulation;
+    vertical-align: baseline;
+    white-space: nowrap;
+}
+
+.button:hover,
+.button:focus {
+    background-color: #07c;
+}
+
+.button:focus {
+    box-shadow: 0 0 0 4px rgba(0, 149, 255, .15);
+}
+
+.button:active {
+    background-color: #0064bd;
+    box-shadow: none;
+}
+
+.password_wrapper {
+    position: relative;
+}
+
+.password_wrapper svg {
+    height: 1.5rem;
+    width: 1.5rem;
+    padding: 4px;
+    position: absolute;
+    box-sizing:border-box;
+    top: 8px;
+    right: 0;
+}
+
+.catalog_wrapper {
+    position: absolute;
+    top: 65px;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+}
+
+.catalog-item {
+    height: 250px;
+    border: solid 1px black;
+    margin: 20px;
+    cursor: pointer;
+}
+
+.header {
+    height: 60px;
+    width: 100vw;
+    background-color: #303030;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    position: fixed;
+    z-index: 10;
+}
+.link {
+    color: #fff;
+
+}
+
+.modal {
+    position: fixed;
+    background-color: #0095ff;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    border-radius: 30px;
+    top: 30%;
+    left: 37%;
+    height: 400px;
+    width: 300px;
+}
+
+.modal-button {
+    position: absolute;
+    top: 5%;
+    right: 5%;
+}
+
+.profile {
+    position: absolute;
+    top: 65px;
+    display: flex;
+}
